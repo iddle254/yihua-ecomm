@@ -13,7 +13,7 @@
     cursor: pointer;
 
     & .background-image {
-      transform: scale(1.1);
+      transform: scale(1.2);
       transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
     }
 
@@ -56,6 +56,14 @@
     .subtitle {
       font-weight: lighter;
       font-size: 16px;
+    }
+    .preview-link {
+      position: absolute;
+      right: 40px;
+      font-size: 24px;
+      top: calc(50% - 18px);
+      color: #fff;
+      transition: 0.3s;
     }
   }
 }
